@@ -1,0 +1,1 @@
+Sử dụng provider viết chức năng thêm các sản phẩm vào giỏ hàng trên header mỗi lần chạm vào product_item thì cộng 1 sản phẩm đó vào giỏ hàng, bầm vào giỏ hàng dẫn đến màn hình giỏ hàng show ra các sản phẩm đã chọn bằng store provider
