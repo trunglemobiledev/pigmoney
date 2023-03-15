@@ -14,7 +14,6 @@ class Cart with ChangeNotifier {
     } else {
       _items[product] = 1;
     }
-    print(_items);
     notifyListeners();
   }
 }

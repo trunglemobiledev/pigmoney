@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:teststore/provider/cart_provider.dart';
 import 'package:teststore/provider/product_provider.dart';
 import 'package:teststore/widgets/product_item.dart';
 
@@ -15,7 +16,7 @@ class ProductsScreen extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Products'),
+        title: Text(context.watch<CartProvider>().itemCount.toString()),
       ),
       body: GridView.builder(
         padding: const EdgeInsets.all(5.0),
